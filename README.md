@@ -42,6 +42,11 @@
 - Add support for real-time user input and data visualization  
 
 ---
+### RiskOme AI Agent
+🚀 **RiskOme AI Agent** analyzes credit risk and provides tweet-ready insights for Automatic updates on [X (Twitter)](https://twitter.com/Riskome).
+
+**Follow our journey and updates on X:** [@Riskome](https://twitter.com/Riskoome)
+
 
 ### **Contributing**
 Feel free to fork this repository and contribute. Suggestions and improvements are always welcome!
