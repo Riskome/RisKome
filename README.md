@@ -1,53 +1,59 @@
-# **Riskome CLI**  
-Riskome CLI is a command-line interface tool designed for credit risk assessment. It utilizes a regression model to train on synthetic datasets and predict credit risk based on key financial indicators. The CLI offers an easy way to interact with the model, train it, and make predictions.
 
-## **Features**  
-- **Train a Regression Model**: Automatically generate synthetic datasets and train a credit risk model.  
-- **Predict Credit Risk**: Input financial details to predict the likelihood of loan default.  
-- **Command-Line Simplicity**: All interactions are done via an intuitive command-line interface.
+# Riskome CLI & Telegram Bot for Credit Risk Assessment
 
-## **Installation**  
+**Riskome** is a credit risk assessment tool that helps users predict the likelihood of loan defaults using machine learning. It is available as both a **Command-Line Interface (CLI)** and a **Telegram Bot** for easy interaction.
+
+## Features  
+- **Command-Line Interface (CLI)** for local use  
+- **Telegram Bot Integration** for real-time interaction and predictions  
+- **Custom Model Training** using uploaded CSV files  
+- Predict whether a user is a **High Risk** or **Low Risk**  
+- Supports machine learning model training and predictions from user data  
+
+---
+
+## Telegram Bot Instructions  
+### Step 1: Start the Bot  
+1. Open Telegram and search for the bot using the handle provided.  
+2. Click **Start** to begin. The bot will respond with a welcome message.  
+
+### Step 2: Upload a CSV File  
+1. The CSV file should contain:  
+   - **Feature columns** in the first columns  
+   - **Target variable** (label) in the last column  
+
+   Example dataset format:  
+   | Age | Income | Loan Amount | Default |  
+   |-----|--------|-------------|---------|  
+   | 35  | 45000  | 15000       | 0       |  
+   | 45  | 60000  | 25000       | 1       |  
+
+2. The bot will automatically train the model on the uploaded data.  
+
+### Step 3: Make Predictions  
+- Type any text message to predict the risk based on the previously trained model.  
+- The bot will respond with **High Risk** or **Low Risk**.  
+
+---
+
+## CLI Instructions  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/Riskome/RisKome.git  
-   ```  
-
-2. Navigate to the project directory:  
-   ```bash
-   cd RisKome  
-   ```  
-
-3. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt  
+   git clone https://github.com/Riskome/RisKome.git
    ```
-
-## **Usage**  
-1. **Train the Model**  
-   Train the regression model on a synthetic dataset:  
+2. Run the CLI using Python:  
    ```bash
-   python riskome_cli.py --train  
+   python riskome_cli.py
    ```
+3. Follow the on-screen instructions to upload data, train the model, and make predictions.
 
-2. **Make a Prediction**  
-   Use the CLI to predict credit risk. Input financial indicators such as income, loan amount, and credit score:  
-   ```bash
-   python riskome_cli.py --predict '{"income": 5000, "loan_amount": 20000, "credit_score": 700}'  
-   ```
+---
 
-   Example output:  
-   ```  
-   Predicted default risk: Low  
-   ```  
-
-3. **View Help**  
-   Display all available commands:  
-   ```bash
-   python riskome_cli.py --help  
-   ```
-
-## **Sample Data**  
-The model trains on a synthetic dataset generated internally. No external data is required to get started.  
+## Technology Stack  
+- **Python**  
+- **scikit-learn** for Machine Learning  
+- **Telegram Bot API**  
+- **pandas** for data manipulation
 
 
 ---
