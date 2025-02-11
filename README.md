@@ -1,45 +1,54 @@
-### **RiskOme: Command-Line Credit Risk Assessment Tool**
+# **Riskome CLI**  
+Riskome CLI is a command-line interface tool designed for credit risk assessment. It utilizes a regression model to train on synthetic datasets and predict credit risk based on key financial indicators. The CLI offers an easy way to interact with the model, train it, and make predictions.
 
-**RiskOme** is a simple AI agent that simulates credit risk assessment using a command-line interface (CLI). This version provides random predictions for **"Low Risk"** or **"High Risk"**, designed for demonstration and testing purposes. Future versions will integrate real data and machine learning models.
+## **Features**  
+- **Train a Regression Model**: Automatically generate synthetic datasets and train a credit risk model.  
+- **Predict Credit Risk**: Input financial details to predict the likelihood of loan default.  
+- **Command-Line Simplicity**: All interactions are done via an intuitive command-line interface.
 
----
-
-### **Features**
-- Command-line interface for user interaction  
-- Simulates risk prediction based on age, income, and loan amount  
-- Lightweight and easy to modify for different use cases  
-
----
-
-### **How It Works**
-1. The script takes simulated input for **age**, **monthly income**, and **loan amount**.  
-2. It predicts the credit risk level as **"Low Risk"** or **"High Risk"** using a random prediction model.  
-3. Results are displayed on the command line for immediate feedback.  
-
----
-
-### **Installation & Usage**
-1. **Clone the repository**:  
+## **Installation**  
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/riskome.git
-   cd riskome
+   git clone https://github.com/Riskome/RisKome.git  
+   ```  
+
+2. Navigate to the project directory:  
+   ```bash
+   cd RisKome  
+   ```  
+
+3. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt  
    ```
 
-2. **Run the script**:  
-   If you have Python installed, execute the script with:  
+## **Usage**  
+1. **Train the Model**  
+   Train the regression model on a synthetic dataset:  
    ```bash
-   python riskome_cli.py
+   python riskome_cli.py --train  
    ```
 
-3. **Modify the inputs**:  
-   You can customize the input values in the `run_cli()` function to test different scenarios.
+2. **Make a Prediction**  
+   Use the CLI to predict credit risk. Input financial indicators such as income, loan amount, and credit score:  
+   ```bash
+   python riskome_cli.py --predict '{"income": 5000, "loan_amount": 20000, "credit_score": 700}'  
+   ```
 
----
+   Example output:  
+   ```  
+   Predicted default risk: Low  
+   ```  
 
-### **Future Plans**
-- Integrate a real credit risk prediction model  
-- Build a web-based interface using **Streamlit**  
-- Add support for real-time user input and data visualization  
+3. **View Help**  
+   Display all available commands:  
+   ```bash
+   python riskome_cli.py --help  
+   ```
+
+## **Sample Data**  
+The model trains on a synthetic dataset generated internally. No external data is required to get started.  
+
 
 ---
 ### RiskOme AI Agent
