@@ -71,7 +71,7 @@ async def predict(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 # Main function to run the bot
 if __name__ == "__main__":
-    application = ApplicationBuilder().token("7934130673:AAGFOmureLINJe5P1D-SiaBW10e0Nm8qMhk").build()
+    application = ApplicationBuilder().token(😘:AAGFOmureLINJe5P1D-SiaBW10e0Nm8qMhk").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(MessageHandler(filters.Document.ALL, handle_file))
