@@ -1,75 +1,66 @@
+## Hey there 👋🏾 Welcome to my GitHub!
 
-# Riskome CLI & Telegram Bot for Credit Risk Assessment
+### 👨🏾‍💻 I'm 0xZeusDev – a Rust SDK, Agentic AI and Data platform Engineer building autonomous systems for gaming a
 
-**Riskome** is a credit risk assessment tool that helps users predict the likelihood of loan defaults using machine learning. It is available as both a **Command-Line Interface (CLI)** and a **Telegram Bot** for easy interaction.
+As a **Rust-based SDK and agentic AI engineer**, I specialize in building high-performance, low-latency tools for emotionally intelligent, goal-driven agents in dynamic environments. I also specialize in recognizing, choosing, and creating effective data systems and pipelines. These systems enable smooth and secure data flow throughout all processes, empowering data-driven decision-making.
 
-## Features  
-- **Command-Line Interface (CLI)** for local use  
-- **Telegram Bot Integration** for real-time interaction and predictions  
-- **Custom Model Training** using uploaded CSV files  
-- Predict whether a user is a **High Risk** or **Low Risk**  
-- Supports machine learning model training and predictions from user data  
+My current focus is on open-source decentralized SDKs that enable developers to integrate LLMs and emotional modeling into non-playable characters (NPCs), allowing them to adapt, evolve, and create emergent narratives in games.
+
+These agents aren't just reactive — they feel, remember, and grow. And I'm excited to be helping build the infrastructure that lets them do that, while staying committed to the values of open access and decentralized innovation.
 
 ---
 
-## Telegram Bot Instructions  
-### Step 1: Start the Bot  
-1. Open Telegram and search for the bot using the handle provided.  
-2. Click **Start** to begin. The bot will respond with a welcome message.  
-
-### Step 2: Upload a CSV File  
-1. The CSV file should contain:  
-   - **Feature columns** in the first columns  
-   - **Target variable** (label) in the last column  
-
-   Example dataset format:  
-   | Age | Income | Loan Amount | Default |  
-   |-----|--------|-------------|---------|  
-   | 35  | 45000  | 15000       | 0       |  
-   | 45  | 60000  | 25000       | 1       |  
-
-2. The bot will automatically train the model on the uploaded data.  
-
-### Step 3: Make Predictions  
-- Type any text message to predict the risk based on the previously trained model.  
-- The bot will respond with **High Risk** or **Low Risk**.  
+### 🧠 What I Do:
+- Build **autonomous, emotional NPCs** using multi-LLM orchestration and memory systems
+- Develop and maintain **modular Rust-based SDKs**
+- Integrate AI pipelines with **Unity, WebAssembly**, and soon Unreal Engine
+- Collaborate on decentralized systems that **don’t compromise performance or vision**
+- Contribute to projects with **zero dox requirement** — letting the tech speak louder than the devs.
+- leverage cloud technologies such as GCP and AWS, alongside DevOps best practices, for all my data projects.
 
 ---
 
-## CLI Instructions  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Riskome/RisKome.git
-   ```
-2. Run the CLI using Python:  
-   ```bash
-   python riskome_cli.py
-   ```
-3. Follow the on-screen instructions to upload data, train the model, and make predictions.
+### 🛠️ Technologies I Work With:
+
+<div>
+    <img src="https://img.shields.io/badge/Rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" />
+    <img src="https://img.shields.io/badge/WebAssembly-%23646464.svg?style=for-the-badge&logo=webassembly&logoColor=white" />
+    <img src="https://img.shields.io/badge/LLMs-FF5733?style=for-the-badge&logo=openai&logoColor=white" />
+    <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+    <img src="https://img.shields.io/badge/Groq-000000?style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
+    <img src="https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" />
+</div>
 
 ---
 
-## Technology Stack  
-- **Python**  
-- **scikit-learn** for Machine Learning  
-- **Telegram Bot API**  
-- **pandas** for data manipulation
-
-
+### 🔭 Current Focus:
+- 🎮 **Building  decentralized Rust agentic AI toolkit
+- 💬 Dynamic emotional modeling & goal-based agent systems
+- 📦 Crate systems for autonomous game logic
+- 🛠️ Lightweight multi-LLM orchestration
 ---
-### RiskOme AI Agent
-🚀 **RiskOme AI Agent** analyzes credit risk and provides tweet-ready insights for Automatic updates on [X (Twitter)](https://twitter.com/Riskome).
 
-**Follow our journey and updates on X:** [@Riskome](https://twitter.com/Riskoome)
-
-
-### **Contributing**
-Feel free to fork this repository and contribute. Suggestions and improvements are always welcome!
+### 📡 You can find me building or tweeting about:
+- Emotional AI
+- Game-world NPC logic
+- Rust agent frameworks
+- AI x Crypto intersections
+- Truly decentralized tech
 
 ---
 
-### **License**
-This project is licensed under the **MIT License**. You’re free to modify and distribute it.
+### 🌎 Find me:
+<div>
+    <a href="https://x.com/0xZeusDev">
+        <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" />
+    </a>
+    <a href="propaiinol@gmail.com">
+        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    </a>
+</div>
 
 ---
 
+![Stats](https://github-readme-stats.vercel.app/api?username=0xZeusDev&show_icons=true&theme=tokyonight&count_private=true)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0xZeusDev&layout=compact&theme=tokyonight)
